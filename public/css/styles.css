@@ -151,13 +151,13 @@ button {
 }
 
 .quote {
-  padding: 2.5rem;
+  padding: 3rem 0;
   color: var(--dark_blue);
 }
 
 .quote-text {
   font-family: var(--roboto_light_italic);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .quote-author {
@@ -167,3 +167,36 @@ button {
 }
 
 /******* Quote-Article *******/
+
+
+/******* SignUp-Section *******/
+
+.signUp-content {
+  background-color: var(--blue);
+  margin: 2.5rem 0;
+  padding: 2rem 2.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signUp-text h1 {
+  font-size: 1.25rem;
+  color: var(--primary_text);
+}
+
+.signUp-text p {
+  color: var(--secondary_text);
+}
+
+.signUp-content>button {
+  background-color: var(--blue);
+  color: var(--primary_text);
+  font-family: var(--roboto_regular);
+  padding: 0.4rem 0.6rem;
+  border: 0.1rem solid var(--primary_text);
+  border-radius: 0.4rem;
+}
+
+/******* SignUp-Section *******/
